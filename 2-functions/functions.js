@@ -14,7 +14,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-             
+             function myFunction() {}
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -27,7 +27,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const myFunction = () => {}
             ////////////////////////////////////////////////////////////////////
 
             myFunction(); // myFunction should be callable now
@@ -40,7 +40,8 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const otherFunction = () => {}
+            myFunction = otherFunction
             ////////////////////////////////////////////////////////////////////
 
             if (myFunction !== otherFunction) {
@@ -57,7 +58,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ EDIT LINE BELOW ✏️
-            myFunction(); // why is myFunction not callable?
+            const a = function a() {};
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -72,7 +73,7 @@ describe("functions", function() {
             // Declare a constant 'answer' with the correct result.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-            const answer = undefined();
+            const answer = undefined;
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext(); // <--- called without explicit context
